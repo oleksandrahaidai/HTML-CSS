@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.w-1070 {
+    width: 1070px;
+    margin: 0 auto;
+
+}
+/*________________________________________________header___________________________________________________________*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+header nav a {
+    color: #696871;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.469px;
+}
+.header__active_link {
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+}
+
+.header_button{
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+    width: 211.02px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FF7143;
+    border: none
+}
+
+
+/*__________________________________________________________section____________________________________________________*/
+
+/*.hero {*/
+/*    height: 644px;*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*    gap: 85.08px;*/
+/*    padding-top: 68px*/
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px
+}
+    /*__what is better padding-top or margin-top in this case__*/
+
+
+.hero div h1{
+    width: 439.411px;
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 77px; /* 102.667% */
+    letter-spacing: -2.501px;
+}
+
+.hero div p {
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    margin: 30px 0 50px  0;
+    width: 409.426px;
+}
+
+.hero div button {
+    width: 188.211px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5454D4;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+
+/*__________________________________________________section________________________________________________________*/
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin: 133px 0 160px 0;
+
+
+}

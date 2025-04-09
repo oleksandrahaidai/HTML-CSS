@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 30px;
+        }
+        header{
+            height: 20vh;
+            background-color: #8D8484;
+        }
+        footer{
+            height: 20vh;
+            background-color: #BDBDBD;
+        }
+        main {
+            display: flex;
+            color: white;
+        }
+        main section div{
+            display: flex;
+            flex-direction: column;
+            width: 73vw;
+            height: 20vh;
+        }
+        main aside div{
+            display: flex;
+            flex-direction: column;
+            width: 27vw;
+            height: 30vh
+        }
+        .content_1 {
+            background-color: #776969;
+        }
+        .content_2{
+            background-color: #643030;
+        }
+        .content_3{
+            background-color: #441818;
+        }
+        .spam_1{
+            background-color: #937575;
+        }
+        .spam_2 {
+            background-color: #644C4C;
+        }
+
+        header, div, footer{
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+    </style>
+</head>
+<body>
+    <header><p>Header</p></header>
+    <main>
+        <section>
+            <div class = "content_1"><p>Content - 1</p></div>
+            <div class = "content_2"><p>Content - 2</p></div>
+            <div class = "content_3"><p>Content - 3</p></div>
+        </section>
+        <aside>
+            <div class = "spam_1"><p>spam -1</p></div>
+            <div class = "spam_2"><p>spam -2</p></div>
+        </aside>
+    </main>
+<footer><p>footer</p></footer>
+</body>
+</html>

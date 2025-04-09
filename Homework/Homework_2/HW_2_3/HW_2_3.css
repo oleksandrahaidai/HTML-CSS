@@ -1,0 +1,26 @@
+body {
+    background-color: #446e44;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 60px 60px
+}
+
+.item {
+    width: 325px;
+    height: 275px;
+    background-color: #b8d3b8;
+    border-radius: 5px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 19px;
+    box-shadow: 23px 19px 26px -5px rgba(0,0,0,0.54);
+}
+
+.item:hover {
+    transform: scale(1.3)
+}

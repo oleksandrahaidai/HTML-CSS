@@ -1,0 +1,25 @@
+
+* {
+    margin: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 0.5s
+}
+.box:hover {
+    border-radius: 50%;
+    background: grey;
+    transition: 1s
+}
+
+.flex {
+    height: 500px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
