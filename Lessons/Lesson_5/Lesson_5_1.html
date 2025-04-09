@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin:  100px auto 0 auto;
+            animation: square 5s linear infinite alternate
+        }
+
+        @keyframes square {
+            from {
+                /*transform: scale(2) rotate(60deg);*/
+                transform: scale(2) skew(60deg);
+            }
+            50% {
+                border-radius: 10%;
+                transform: rotate(-60deg);
+
+            }
+            to {
+                transform: scale(1);
+            rotate(0 deg);
+                background-color: yellow;
+            }
+        }
+
+    </style>
 </head>
 <body>
-
+    <div class= "box"> </div>
 </body>
 </html>
