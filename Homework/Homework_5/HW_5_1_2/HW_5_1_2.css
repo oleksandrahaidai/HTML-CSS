@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+div{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.green{
+    background-color: green;
+    animation: green_circle 5s linear infinite alternate;
+}
+.magenta{
+    background-color: magenta;
+    animation: magenta_circle 5s linear infinite alternate;
+}
+.blue{
+    background-color: blue;
+    animation: blue_circle 5s linear infinite alternate ;
+}
+.yellow{
+    background-color: yellow;
+    animation: yellow_circle 5s linear infinite alternate;
+}
+.purple{
+    background-color: mediumpurple;
+    animation: purple_circle 5s linear infinite alternate;
+}
+.red{
+    background-color: red;
+    animation: red_circle 5s linear infinite alternate ;
+}
+
+@keyframes red_circle {
+    from{
+        transform:translate(0, 150px) scale(2);
+    }
+    25%{
+        transform:translate(0);
+        background-color: darkred;
+    }
+    50%{
+        transform:translate(0, -150px) scale(2);
+        background-color: red;
+    }
+    75%{
+        transform:translate(0);
+        background-color: darkred;
+    }
+    to {
+        transform:translate(0, 150px) scale(2);
+        background-color: red;
+    }
+}
+
+@keyframes yellow_circle {
+    from{
+        transform:translate(0, -150px) scale(2);
+    }
+    25%{
+        transform:translate(0 );
+        background-color: darkgoldenrod;
+    }
+    50%{
+        transform:translate(0, 150px) scale(2);
+        background-color: yellow;
+    }
+    75%{
+        transform:translate(0);
+        background-color: darkgoldenrod
+    }
+    to {
+        transform:translate(0, -150px) scale(2);
+        background-color: yellow;
+    }
+}
+
+@keyframes blue_circle {
+    from{
+        transform:translate(0, 150px) scale(2);
+    }
+    25%{
+        transform:translate(0);
+        background-color: darkblue;
+
+    }
+    50%{
+        transform:translate(0, -150px) scale(2);
+        background-color: blue;
+    }
+    75%{
+        transform:translate(0);
+        background-color: darkblue;
+    }
+    to {
+        transform:translate(0, 150px) scale(2);
+        background-color: blue;
+    }
+}
+
+@keyframes magenta_circle {
+    from{
+        transform:translate(0, -150px) scale(2);
+            }
+    25%{
+        transform:translate(0);
+        background-color: darkmagenta;
+    }
+    50%{
+        transform:translate(0, 150px) scale(2);
+        background-color: magenta;
+    }
+    75%{
+        transform:translate(0);
+        background-color: darkmagenta;
+    }
+    to {
+        transform:translate(0, -150px) scale(2);
+        background-color: magenta;
+    }
+}
+
+@keyframes green_circle {
+    from{
+        transform:translate(0, 150px) scale(2);
+    }
+    25%{
+        transform:translate(0);
+        background-color: darkgreen;
+    }
+    50%{
+        transform:translate(0, -150px) scale(2);
+        background-color: green;
+    }
+    75%{
+        transform:translate(0);
+        background-color: darkgreen;
+    }
+    to {
+        transform:translate(0, 150px) scale(2);
+        background-color: green;
+    }
+}
+
+@keyframes purple_circle {
+    from{
+        transform:translate(0, -150px) scale(2);
+    }
+    25%{
+        transform:translate(0);
+        background-color: darkslateblue;
+    }
+    50%{
+        transform:translate(0, 150px) scale(2);
+        background-color: mediumpurple;
+    }
+    75%{
+        transform:translate(0);
+        background-color: darkslateblue;
+    }
+    to {
+        transform:translate(0, -150px) scale(2);
+        background-color: mediumpurple;
+    }
+}

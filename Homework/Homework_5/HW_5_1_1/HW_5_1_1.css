@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+section{
+    width:400px;
+    height:400px;
+    background-color:green;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: square 1.5s linear infinite alternate;
+}
+
+div{
+    width:250px;
+    height:250px;
+    background-color:red;
+    border-radius: 50%;
+    animation: circle 1.5s linear infinite alternate;
+}
+
+@keyframes circle {
+        0% {
+            transform: scale(1)
+        }
+        50% {
+            transform: scale(0.5);
+        }
+        100% {
+            transform: scale(0);
+        }
+}
+
+@keyframes square {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+
