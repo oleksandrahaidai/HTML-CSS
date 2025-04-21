@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+body div form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+body div:nth-child(1){
+    width: 27vw;
+    height: 66vh;
+    border: 2px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body>div>img{
+    width: 290px;
+    margin-top: 30px;
+}
+div form input[type=text], div form input[type=password] {
+    display: block;
+    width: 390px;
+    height: 55px;
+    background-color: #fdfafa;
+    border: 2px solid lightgrey;
+    margin-top: 10px;
+}
+input::placeholder {
+    font-size: 18px;
+    align-items: center;
+}
+div form input[type=submit]{
+    width: 390px;
+    height: 45px;
+    background-color: #41acf6;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight:bold;
+}
+div form .or{
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+}
+body form img{
+    width: 23px;
+    height: 23px;
+}
+div form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 40px 0 20px 0;
+}
+div>form>div>a {
+    color: #1b5e8e;
+    font-weight: bold;
+    font-size: 22px;
+}
+div>form>a{
+    color: #1b5e8e;
+    font-size: 20px;
+    margin-top: 15px;
+}
+body div:nth-child(2){
+    width: 27vw;
+    height: 10vh;
+    border: 2px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+body>div>p:first-child {
+    font-size: 22px;
+}
+body>div>a:last-child {
+    font-size: 22px;
+    font-weight: bold;
+    color: #41acf6
+}
