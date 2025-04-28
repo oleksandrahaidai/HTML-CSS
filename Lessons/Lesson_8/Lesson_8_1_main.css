@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #161622;
+    font-family: Inter, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.wrapper{
+    width: 532px;
+    height: 461px;
+    text-align: center;
+
+}
+.circle1{
+    width: 396px;
+    height: 396px;
+    border-radius: 396px;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+    position: absolute;
+    top:-210px;
+    left:-200px;
+}
+.circle2{
+    width: 260px;
+    height: 260px;
+    border-radius: 260px;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+    position: absolute;
+    top:-20px;
+    right: -120px;
+}
+h1{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 180px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 140px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+h2{
+    color: rgba(255, 255, 255, 0.90);
+    /* Large title/3 strong */
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: 0.25px;
+    padding: 30px 0 24px 0;
+}
+p{
+    height: 56px;
+    color: rgba(255, 255, 255, 0.75);
+    /* Text/1 regular */
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+.get_course{
+    height: 64px;
+    padding: 0 48px;
+    border-radius: 32px;
+    background: #6F1DF4;
+    color: #FFF;
+    /* Text/3 strong */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    border: none;
+
+}
+.get_home {
+    height: 64px;
+    padding: 0 48px;
+    border-radius: 32px;
+    background: #FFF;
+    color: #000;
+    /* Text/3 strong */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    border: none;
+}
