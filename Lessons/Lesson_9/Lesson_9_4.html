@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+       .grid{
+           height: 100vh;
+           display: grid;
+           grid-template-columns: 20% 60% 20%;
+           grid-template-rows: 20% 60% 20%;
+           grid-template-areas:
+           "header header header"
+           "left_aside main right_aside"
+           "footer footer footer";
+       }
+       header{
+           grid-area: header;
+           background: lightgreen;
+       }
+       .left_aside {
+           grid-area: left_aside;
+           background: green;
+       }
+       .right_aside {
+           grid-area: right_aside;
+           background: green;
+       }
+       main{
+           grid-area: main;
+           background: darkgreen;
+       }
+       footer{
+           grid-area: footer;
+           background: lightgreen;
+       }
+
+       @media screen and (max-width: 480px) {
+           .grid {
+               grid-template-columns: repeat(2, 1fr);
+               grid-template-rows: repeat(4, 1fr);
+               grid-template-areas:
+              "header header"
+               "left_aside right_aside"
+               "main main"
+               "footer footer";
+           }
+       }
+    </style>
+</head>
+<body>
+   <div class="grid">
+       <header></header>
+       <aside class="left_aside"></aside>
+       <main></main>
+       <aside class="right_aside"></aside>
+       <footer></footer>
+   </div>
+</body>
+</html>

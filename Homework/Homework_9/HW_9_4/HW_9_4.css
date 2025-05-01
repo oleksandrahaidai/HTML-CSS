@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+.wrapper{
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: 73vw 27vw ;
+    grid-template-rows: 20vh 20vh 10vh 10vh 20vh 20vh;
+    grid-template-areas:
+        "header header"
+        "top_section top_aside"
+        "middle_section top_aside"
+        "middle_section bottom_aside"
+        "bottom_section bottom_aside"
+        "footer footer";
+}
+header{
+    grid-area: header;
+    background-color: #8D8484;
+}
+.top_section{
+    grid-area: top_section;
+    background-color: #776969;
+}
+.middle_section{
+    grid-area: middle_section;
+    background-color: #643030;
+}
+.bottom_section{
+    grid-area: bottom_section;
+    background-color: #441818;
+}
+.top_aside{
+    grid-area: top_aside;
+    background-color: #937575;
+}
+.bottom_aside{
+    grid-area: bottom_aside;
+    background-color: #644C4C;
+}
+footer{
+    grid-area: footer;
+    background-color: #BDBDBD;
+}
+div section, div aside{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header, footer {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
